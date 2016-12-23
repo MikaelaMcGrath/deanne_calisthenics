@@ -1,0 +1,743 @@
+/*********************
+BREAKPOINTS
+*********************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\000031}}
+body {
+  color: #3A3A3A;
+  font-family: helvetica, arial, sans-serif;
+  font-feature-settings: "kern", "liga", "pnum";
+  font-size: 10px !important;
+  line-height: 1.25;
+  -webkit-font-smoothing: antialiased; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000310}}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: times-new-roman, times;
+  font-size: 1em;
+  line-height: 1.25;
+  margin: 0 0 0.625em;
+  font-weight: 400; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000322}}
+header h1 {
+  text-transform: uppercase;
+  padding-right: 1rem;
+  padding-left: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000326}}
+h1 {
+  margin-bottom: 0;
+  font-size: 3.8em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000330}}
+h2 {
+  font-size: 2.6em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000333}}
+h3 {
+  font-size: 2em;
+  font-weight: 600; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000337}}
+h4 {
+  font-size: 1.8em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000340}}
+h5 {
+  font-size: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000344}}
+h6 {
+  font-size: 1.5em;
+  font-weight: 600; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000348}}
+p, li {
+  font-size: 1.4em;
+  margin: 0 0 0.625em;
+  line-height: 1.75em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000352}}
+  p li, li li {
+    font-size: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000356}}
+ul, ol {
+  list-style: outside square;
+  padding-left: 3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000359}}
+  ul ul, ul ol, ol ul, ol ol {
+    list-style: outside disc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000361}}
+    ul ul ul, ul ul ol, ul ol ul, ul ol ol, ol ul ul, ol ul ol, ol ol ul, ol ol ol {
+      list-style: outside circle; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000367}}
+ol {
+  list-style-type: decimal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000369}}
+  ol ol {
+    list-style-type: lower-alpha; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000371}}
+    ol ol ol {
+      list-style-type: lower-roman; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000376}}
+a {
+  color: #3A3A3A;
+  text-decoration: none;
+  border-bottom: 1px dotted #3A3A3A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000380}}
+  a:active, a:focus, a:hover {
+    color: #101010;
+    border-bottom: 1px dotted #f7c200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000389}}
+hr {
+  border-bottom: 1px solid #C3C3C3;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: 1rem 0;
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\0000398}}
+table {
+  margin: 1rem 0;
+  border: 1px solid #3A3A3A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\00003101}}
+  table th {
+    padding: 0.5rem 0.5rem;
+    background-color: #C3C3C3;
+    font-size: 1.4em;
+    text-align: center;
+    border: 1px solid #C3C3C3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\00003108}}
+  table td {
+    padding: 0.5rem 0.5rem;
+    font-size: 1.4em;
+    border: 1px solid #C3C3C3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\00003114}}
+strong {
+  font-weight: 700; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\00003117}}
+:focus {
+  outline-color: #f7c200; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/base\/_typography\.scss}line{font-family:\00003120}}
+.lower {
+  text-transform: lowercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_body\.scss}line{font-family:\000031}}
+body {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_page\.scss}line{font-family:\000031}}
+.l-page {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_header\.scss}line{font-family:\000031}}
+.l-header {
+  width: 100%;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_header\.scss}line{font-family:\000034}}
+  .l-header a {
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_header\.scss}line{font-family:\000038}}
+  .l-header .header-wrapper {
+    background: #3A3A3A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_header\.scss}line{font-family:\0000310}}
+    .l-header .header-wrapper .l-region--header {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_header\.scss}line{font-family:\0000317}}
+    .l-header .header-wrapper .header-menu {
+      padding: 0.5rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_header\.scss}line{font-family:\0000319}}
+      .l-header .header-wrapper .header-menu a {
+        color: #C3C3C3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_header\.scss}line{font-family:\0000321}}
+        .l-header .header-wrapper .header-menu a:hover, .l-header .header-wrapper .header-menu a:focus {
+          border-bottom: 1px dotted #C3C3C3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_header\.scss}line{font-family:\0000325}}
+      .l-header .header-wrapper .header-menu ul {
+        text-align: center;
+        margin: 0;
+        padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_header\.scss}line{font-family:\0000329}}
+        .l-header .header-wrapper .header-menu ul li {
+          list-style-type: none;
+          list-style-image: none;
+          display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_header\.scss}line{font-family:\0000336}}
+          .l-header .header-wrapper .header-menu ul li:after {
+            content: '\000B7';
+            color: #505050;
+            padding: 0 0.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_header\.scss}line{font-family:\0000341}}
+          .l-header .header-wrapper .header-menu ul li.last:after {
+            content: '';
+            padding: 0; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_header\.scss}line{font-family:\0000353}}
+  .l-header .header-wrapper {
+    padding: 0 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_header\.scss}line{font-family:\0000355}}
+    .l-header .header-wrapper .header {
+      max-width: 960px;
+      margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_header\.scss}line{font-family:\0000358}}
+      .l-header .header-wrapper .header .l-region--header {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\000033}}
+.search {
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\000036}}
+  .search .container-inline div {
+    display: block !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\000039}}
+  .search .search-block-form {
+    margin: 0;
+    padding: 0.8em 0 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000312}}
+    .search .search-block-form > div {
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000315}}
+    .search .search-block-form * {
+      height: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000320}}
+    .search .search-block-form .container-inline div {
+      display: inline-block !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000325}}
+    .search .search-block-form .container-inline .form-item input,
+    .search .search-block-form .container-inline .form-item input.form-submit,
+    .search .search-block-form .container-inline .form-actions input,
+    .search .search-block-form .container-inline .form-actions input.form-submit {
+      border-radius: 0;
+      border: none;
+      color: #C3C3C3;
+      height: 100%;
+      line-height: 35px;
+      padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000334}}
+    .search .search-block-form .container-inline .form-item .form-search,
+    .search .search-block-form .container-inline .form-actions .form-search {
+      height: 35px;
+      font-size: 12px;
+      line-height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000338}}
+      .search .search-block-form .container-inline .form-item .form-search::-webkit-input-placeholder,
+      .search .search-block-form .container-inline .form-actions .form-search::-webkit-input-placeholder {
+        font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000341}}
+      .search .search-block-form .container-inline .form-item .form-search:-moz-placeholder,
+      .search .search-block-form .container-inline .form-actions .form-search:-moz-placeholder {
+        /* Firefox 18- */
+        font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000344}}
+      .search .search-block-form .container-inline .form-item .form-search::-moz-placeholder,
+      .search .search-block-form .container-inline .form-actions .form-search::-moz-placeholder {
+        /* Firefox 19+ */
+        font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000347}}
+      .search .search-block-form .container-inline .form-item .form-search:-ms-input-placeholder,
+      .search .search-block-form .container-inline .form-actions .form-search:-ms-input-placeholder {
+        font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000353}}
+    .search .search-block-form .container-inline .form-item input {
+      background: #505050;
+      color: #C3C3C3;
+      font-size: 1.4em;
+      padding: 0 0 0 0.4em;
+      border: 1px solid #505050;
+      width: 180px;
+      -webkit-transition: all .4s ease-in-out;
+      -moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000364}}
+      .search .search-block-form .container-inline .form-item input ::placeholder {
+        color: #C3C3C3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000367}}
+      .search .search-block-form .container-inline .form-item input:focus {
+        width: 250px;
+        border: 1px solid #C3C3C3;
+        color: #3A3A3A;
+        background: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000372}}
+        .search .search-block-form .container-inline .form-item input:focus ::placeholder {
+          color: #505050; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000377}}
+    .search .search-block-form .container-inline .form-item label {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000381}}
+    .search .search-block-form .container-inline .form-actions {
+      padding: 0;
+      width: 40px;
+      z-index: 2;
+      vertical-align: top; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000386}}
+      .search .search-block-form .container-inline .form-actions input,
+      .search .search-block-form .container-inline .form-actions input.form-submit {
+        overflow: hidden;
+        text-indent: 101%;
+        white-space: nowrap;
+        text-indent: 200%;
+        padding: 0;
+        height: 37px;
+        width: 100%;
+        background: url("../images/search.png"), #101010;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 20px 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\0000399}}
+    .search .search-block-form .container-inline .form-submit {
+      background: url("../images/search.png"), #101010;
+      overflow: hidden;
+      text-indent: 101%;
+      white-space: nowrap;
+      padding: 0;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      height: 37px;
+      text-indent: 200%;
+      width: 35px;
+      background-size: 20px 20px;
+      vertical-align: top; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\00003116}}
+  .search {
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_search\.scss}line{font-family:\00003118}}
+    .search .search-block-form {
+      padding: 0.5em 0 0.8em 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_branding\.scss}line{font-family:\000031}}
+.l-branding {
+  padding: 1rem 1rem 0 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_branding\.scss}line{font-family:\000033}}
+  .l-branding a {
+    border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_branding\.scss}line{font-family:\000037}}
+  .l-branding .site-logo img {
+    width: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_branding\.scss}line{font-family:\0000311}}
+  .l-branding .site-slogan {
+    color: #505050; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_branding\.scss}line{font-family:\0000316}}
+  .l-branding {
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_branding\.scss}line{font-family:\0000323}}
+    .l-branding .site-logo {
+      flex: 1 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_branding\.scss}line{font-family:\0000326}}
+    .l-branding .site-heading {
+      flex: 2 0 auto;
+      text-align: left;
+      margin-left: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_branding\.scss}line{font-family:\0000330}}
+      .l-branding .site-heading h1 {
+        padding: 0;
+        font-size: 3.8em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_branding\.scss}line{font-family:\0000334}}
+      .l-branding .site-heading .site-slogan {
+        text-align: left; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\000031}}
+.navigation-wrapper {
+  width: 100%;
+  background: #3A3A3A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\000034}}
+  .navigation-wrapper .main-navigation {
+    height: auto;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\000037}}
+    .navigation-wrapper .main-navigation .l-region {
+      height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000310}}
+      .navigation-wrapper .main-navigation .l-region .main-menu {
+        padding: 0 1rem;
+        margin: 0 auto;
+        height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000314}}
+        .navigation-wrapper .main-navigation .l-region .main-menu ul.menu {
+          margin: 0;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: row;
+          padding-left: 0;
+          height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000323}}
+          .navigation-wrapper .main-navigation .l-region .main-menu ul.menu li {
+            list-style-type: none;
+            list-style-image: none;
+            height: 100%;
+            margin: 0;
+            position: relative;
+            flex: 1 1 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000330}}
+            .navigation-wrapper .main-navigation .l-region .main-menu ul.menu li a {
+              color: #FFFFFF;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              text-align: center;
+              height: 100%;
+              border-bottom: none;
+              padding: 1rem 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000340}}
+              .navigation-wrapper .main-navigation .l-region .main-menu ul.menu li a:hover {
+                background-color: #C3C3C3;
+                color: #101010;
+                cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000344}}
+                .navigation-wrapper .main-navigation .l-region .main-menu ul.menu li a:hover .sf-sub-indicator {
+                  background-image: url(../images/arrows-101010.png); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000350}}
+            .navigation-wrapper .main-navigation .l-region .main-menu ul.menu li a > .sf-sub-indicator, .navigation-wrapper .main-navigation .l-region .main-menu ul.menu li span.nolink > .sf-sub-indicator {
+              top: 1.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000358}}
+        .navigation-wrapper .main-navigation .l-region .main-menu .sf-menu ul {
+          background-color: #3A3A3A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000361}}
+        .navigation-wrapper .main-navigation .l-region .main-menu .sf-menu li:hover > ul, .navigation-wrapper .main-navigation .l-region .main-menu .sf-menu li.sfHover > ul {
+          top: 4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000364}}
+          .navigation-wrapper .main-navigation .l-region .main-menu .sf-menu li:hover > ul a, .navigation-wrapper .main-navigation .l-region .main-menu .sf-menu li.sfHover > ul a {
+            text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000369}}
+        .navigation-wrapper .main-navigation .l-region .main-menu .sf-menu.sf-horizontal.sf-shadow ul, .navigation-wrapper .main-navigation .l-region .main-menu .sf-menu.sf-vertical.sf-shadow ul, .navigation-wrapper .main-navigation .l-region .main-menu .sf-menu.sf-navbar.sf-shadow ul ul {
+          background: #3A3A3A;
+          border-radius: 0;
+          padding: 0 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000374}}
+          .navigation-wrapper .main-navigation .l-region .main-menu .sf-menu.sf-horizontal.sf-shadow ul li, .navigation-wrapper .main-navigation .l-region .main-menu .sf-menu.sf-vertical.sf-shadow ul li, .navigation-wrapper .main-navigation .l-region .main-menu .sf-menu.sf-navbar.sf-shadow ul ul li {
+            border-bottom: 1px solid #505050; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000376}}
+            .navigation-wrapper .main-navigation .l-region .main-menu .sf-menu.sf-horizontal.sf-shadow ul li.last, .navigation-wrapper .main-navigation .l-region .main-menu .sf-menu.sf-vertical.sf-shadow ul li.last, .navigation-wrapper .main-navigation .l-region .main-menu .sf-menu.sf-navbar.sf-shadow ul ul li.last {
+              border-bottom: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000387}}
+.mean-container .mean-bar {
+  background-color: #101010;
+  padding: 4px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000390}}
+  .mean-container .mean-bar a {
+    border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000393}}
+  .mean-container .mean-bar .mean-nav {
+    background-color: #101010; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000396}}
+    .mean-container .mean-bar .mean-nav ul li {
+      margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\0000398}}
+      .mean-container .mean-bar .mean-nav ul li a {
+        border-top: 1px solid #3A3A3A;
+        width: 96%;
+        padding: 0.5em 2%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\00003103}}
+      .mean-container .mean-bar .mean-nav ul li a.mean-expand {
+        width: 14px;
+        height: 14px;
+        border-left: 1px solid #3A3A3A !important;
+        border-bottom: 1px solid #3A3A3A !important;
+        line-height: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\00003111}}
+      .mean-container .mean-bar .mean-nav ul li li a {
+        width: 92%;
+        padding: 0.5em 4%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\00003116}}
+      .mean-container .mean-bar .mean-nav ul li li li a {
+        width: 88%;
+        padding: 0.5em 6%; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\00003130}}
+  .navigation-wrapper .main-navigation {
+    max-width: 960px;
+    margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_main-menu\.scss}line{font-family:\00003135}}
+    .navigation-wrapper .main-navigation .l-region .main-menu ul.menu {
+      flex-wrap: nowrap; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_content\.scss}line{font-family:\000031}}
+.l-content {
+  margin: 1rem 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_content\.scss}line{font-family:\000033}}
+  .l-content .date, .l-content .date-display-range {
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_content\.scss}line{font-family:\000036}}
+  .l-content .date-display-range {
+    font-size: 1.4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_content\.scss}line{font-family:\000039}}
+  .l-content .messages {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_content\.scss}line{font-family:\0000312}}
+  .l-content .location {
+    font-size: 1.3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_content\.scss}line{font-family:\0000314}}
+    .l-content .location .map-link {
+      font-size: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_content\.scss}line{font-family:\0000320}}
+  .l-content .classes-content .right .class-news {
+    background-color: #f0f0f0;
+    border: 1px solid #C3C3C3;
+    padding: 1rem 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_content\.scss}line{font-family:\0000328}}
+  .l-content .view-calendar ul {
+    list-style-type: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_content\.scss}line{font-family:\0000330}}
+    .l-content .view-calendar ul a {
+      margin: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_content\.scss}line{font-family:\0000336}}
+  .l-content .view-events .view-footer {
+    text-align: right; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_content\.scss}line{font-family:\0000343}}
+  .l-content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_content\.scss}line{font-family:\0000347}}
+    .l-content .classes-content {
+      display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_content\.scss}line{font-family:\0000349}}
+      .l-content .classes-content .left {
+        width: 60%;
+        margin-right: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_content\.scss}line{font-family:\0000353}}
+      .l-content .classes-content .right {
+        width: 40%; } }
+@media (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_content\.scss}line{font-family:\0000360}}
+  .l-content {
+    padding: 1rem 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_footer\.scss}line{font-family:\000031}}
+.footer-wrapper {
+  width: 100%;
+  background: #3A3A3A;
+  color: #FFFFFF;
+  font-size: 0.8em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_footer\.scss}line{font-family:\000036}}
+  .footer-wrapper .l-footer {
+    padding: 1rem 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_footer\.scss}line{font-family:\000038}}
+    .footer-wrapper .l-footer p {
+      margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_footer\.scss}line{font-family:\0000311}}
+    .footer-wrapper .l-footer .l-region--footer {
+      display: flex;
+      align-items: center;
+      flex-direction: column-reverse; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_footer\.scss}line{font-family:\0000316}}
+      .footer-wrapper .l-footer .l-region--footer .copyright {
+        display: block;
+        color: #C3C3C3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_footer\.scss}line{font-family:\0000320}}
+      .footer-wrapper .l-footer .l-region--footer .footer-menu {
+        text-align: center;
+        font-size: 1.1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_footer\.scss}line{font-family:\0000323}}
+        .footer-wrapper .l-footer .l-region--footer .footer-menu ul {
+          padding: 0;
+          margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_footer\.scss}line{font-family:\0000326}}
+          .footer-wrapper .l-footer .l-region--footer .footer-menu ul li {
+            list-style-image: none;
+            list-style-type: none;
+            display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_footer\.scss}line{font-family:\0000330}}
+            .footer-wrapper .l-footer .l-region--footer .footer-menu ul li a {
+              color: #FFFFFF;
+              border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_footer\.scss}line{font-family:\0000333}}
+              .footer-wrapper .l-footer .l-region--footer .footer-menu ul li a:hover, .footer-wrapper .l-footer .l-region--footer .footer-menu ul li a:focus {
+                border-bottom: 1px dotted #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_footer\.scss}line{font-family:\0000337}}
+            .footer-wrapper .l-footer .l-region--footer .footer-menu ul li:after {
+              content: '\000B7';
+              color: #505050;
+              padding: 0 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_footer\.scss}line{font-family:\0000342}}
+            .footer-wrapper .l-footer .l-region--footer .footer-menu ul li.last:after {
+              content: '';
+              padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\000032}}
+.front h2, .front p {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\000035}}
+.front .home-content {
+  width: 70%;
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\000039}}
+.front .home-content-section {
+  padding-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\0000312}}
+.front .grey-box {
+  background-color: #f0f0f0;
+  border: 1px solid #C3C3C3;
+  padding: 0 1rem 1rem 1rem;
+  margin-bottom: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\0000317}}
+  .front .grey-box.news {
+    margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\0000321}}
+  .front .grey-box.classes p {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\0000326}}
+  .front .grey-box.news .views-row, .front .grey-box.events .views-row {
+    display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\0000328}}
+    .front .grey-box.news .views-row p, .front .grey-box.events .views-row p {
+      width: 70%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\0000330}}
+      .front .grey-box.news .views-row p.date, .front .grey-box.events .views-row p.date {
+        width: 35%;
+        padding-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\0000336}}
+  .front .grey-box.news .more-link, .front .grey-box.events .more-link {
+    font-size: 1.4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\0000340}}
+  .front .grey-box p {
+    text-align: left; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\0000346}}
+  .info-boxes {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\0000352}}
+    .info-boxes .left, .info-boxes .middle, .info-boxes .right {
+      flex: 1 0 auto;
+      width: 32%;
+      display: flex;
+      align-content: stretch;
+      justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\0000358}}
+      .info-boxes .left .grey-box, .info-boxes .middle .grey-box, .info-boxes .right .grey-box {
+        padding-top: 1rem;
+        width: 100%;
+        margin-right: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\0000362}}
+        .info-boxes .left .grey-box.news, .info-boxes .middle .grey-box.news, .info-boxes .right .grey-box.news {
+          margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_home\.scss}line{font-family:\0000365}}
+        .info-boxes .left .grey-box.classes, .info-boxes .middle .grey-box.classes, .info-boxes .right .grey-box.classes {
+          margin-right: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_slider\.scss}line{font-family:\000031}}
+.slideshow {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_slider\.scss}line{font-family:\000033}}
+  .slideshow img {
+    width: 100%;
+    height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_slider\.scss}line{font-family:\000037}}
+  .slideshow .views-slideshow-controls-top {
+    display: none;
+    visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_sponsors\.scss}line{font-family:\000031}}
+.sponsors {
+  border-top: 1px solid #C3C3C3;
+  margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_sponsors\.scss}line{font-family:\000034}}
+  .sponsors .view-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_sponsors\.scss}line{font-family:\000039}}
+    .sponsors .view-content a {
+      border-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_sponsors\.scss}line{font-family:\0000312}}
+    .sponsors .view-content img {
+      height: auto;
+      width: 100%;
+      max-width: 150px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_sponsors\.scss}line{font-family:\0000317}}
+    .sponsors .view-content .views-row {
+      text-align: center;
+      width: 30%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_sponsors\.scss}line{font-family:\0000321}}
+    .sponsors .view-content .views-row-1 {
+      margin-right: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_sponsors\.scss}line{font-family:\0000324}}
+    .sponsors .view-content .views-row-2 {
+      order: 3;
+      margin-left: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_sponsors\.scss}line{font-family:\0000328}}
+    .sponsors .view-content .views-row-3 {
+      order: 2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_breadcrumbs\.scss}line{font-family:\000031}}
+.breadcrumb {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_breadcrumbs\.scss}line{font-family:\000036}}
+  .breadcrumb li {
+    display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_breadcrumbs\.scss}line{font-family:\000038}}
+    .breadcrumb li:after {
+      content: '>';
+      padding: 0 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_breadcrumbs\.scss}line{font-family:\0000312}}
+    .breadcrumb li:last-child:after {
+      content: ''; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_form\.scss}line{font-family:\000033}}
+.section-contact .l-content label, .page-search .l-content label {
+  font-size: 1.4em;
+  margin-bottom: 0.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_form\.scss}line{font-family:\000037}}
+.section-contact .l-content input[type='text'], .section-contact .l-content input[type='email'], .page-search .l-content input[type='text'], .page-search .l-content input[type='email'] {
+  border: 1px solid #F0F0F0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin: 0 0 0.625em;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  padding: 0.41667em;
+  transition: border-color 150ms ease;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Mikaela\/Sites\/devdesktop\/deanne-calisthenics\/sites\/all\/themes\/custom\/deanne_calisthenics\/sass\/components\/_form\.scss}line{font-family:\0000321}}
+.section-contact .l-content input[type='submit'], .page-search .l-content input[type='submit'] {
+  padding: 0.5rem 1rem;
+  background-color: #505050;
+  color: #FFFFFF;
+  clear: both;
+  margin-top: 1rem;
+  font-size: 1.6em;
+  font-weight: normal;
+  position: relative;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 0; }

@@ -1,0 +1,142 @@
+.navigation-wrapper {
+	width: 100%;
+	background: $dark-grey;
+	.main-navigation {
+		height: auto;
+		text-transform: uppercase;
+		.l-region {
+			height:100%;
+
+			.main-menu {
+				padding: 0 $horz-spacing-unit;
+				margin: 0 auto;
+				height: 100%;
+				ul.menu {
+					margin: 0;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
+					align-items: center;
+					flex-direction: row;
+					padding-left: 0;
+					height: 100%;
+					li {
+						list-style-type: none;
+						list-style-image: none;
+						height: 100%;
+						margin: 0;
+						position: relative;
+						flex: 1 1 0;
+						a {
+							color: $white;
+							display: flex;
+							flex-direction: column;
+							justify-content: center;
+							text-align: center;
+							height: 100%;
+							border-bottom: none;
+							padding: $vert-spacing-unit $horz-spacing-unit;
+
+							&:hover {
+								background-color: $light-grey;
+								color: $light-black;
+								cursor: pointer;
+								.sf-sub-indicator {
+									background-image: url(../images/arrows-101010.png);
+								}
+							}
+
+						}
+						a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
+							top: 1.5em;
+						}
+
+					}
+
+
+				}
+				.sf-menu ul {
+					background-color: $dark-grey;
+				}
+				.sf-menu li:hover > ul, .sf-menu li.sfHover > ul {
+						top: 4em;
+						
+						a {
+							text-align: left;
+						}
+
+					}
+					.sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
+						background: $dark-grey;
+						border-radius: 0;
+						padding: 0 !important;
+
+						li {
+							border-bottom: 1px solid $mid-grey;
+							&.last {
+								border-bottom: none;
+							}
+						}
+
+					}	
+			}
+		}
+	}
+}
+.mean-container {
+	.mean-bar {
+		background-color: $light-black;
+		padding: 4px 0 0;
+		a {
+			border-bottom: none;
+		}
+		.mean-nav {
+			background-color: $light-black;
+			ul {
+				 li {
+					margin: 0;
+					a {
+						border-top: 1px solid $dark-grey;
+						width: 96%;
+						padding: 0.5em 2%;
+					}
+					a.mean-expand {
+						width: 14px;
+						height: 14px;
+						border-left: 1px solid $dark-grey !important;
+						border-bottom: 1px solid $dark-grey !important;
+						line-height: 12px;
+					}
+					li  {
+						a {
+							width: 92%;
+							padding: 0.5em 4%;
+						}
+						li {
+							a {
+								width: 88%;
+								padding: 0.5em 6%;
+							}
+						}
+					}
+
+				}
+			}
+		}
+	}
+}
+@include breakpoint(tablet) {
+	.navigation-wrapper {
+		.main-navigation {
+			max-width: 960px;
+			margin: 0 auto;
+			.l-region {
+				.main-menu {
+					ul.menu {
+						flex-wrap: nowrap;
+					}
+				}
+			}
+		}
+	}
+}

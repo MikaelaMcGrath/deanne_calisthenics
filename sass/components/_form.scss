@@ -1,0 +1,40 @@
+.section-contact, .page-search {
+	.l-content {
+	label {
+	font-size: $base-font-size * 1.4;
+	margin-bottom: $vert-spacing-unit /2;
+	}
+	input[type='text'], input[type='email'] {
+	    
+	    border: 1px solid #F0F0F0;
+	    border-top-left-radius: 0;
+	    border-top-right-radius: 0;
+	    border-bottom-left-radius: 0;
+	    border-bottom-right-radius: 0;
+	    margin: 0 0 0.625em;
+	    box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+	    box-sizing: border-box;
+	    padding: 0.41667em;
+	    transition: border-color 150ms ease;
+	    width: 100%;
+	}
+	input[type='submit'] {
+		padding: 0.5rem 1rem;
+	    background-color: $mid-grey;
+	    color: #FFFFFF;
+	    clear: both;
+	    margin-top: 1rem;
+	    font-size: 1.6em;
+	    font-weight: normal;
+	    position: relative;
+	    border-top-left-radius: 0;
+	    border-top-right-radius: 0;
+	    border-bottom-left-radius: 0;
+	    border-bottom-right-radius: 0;
+	    border: 0;
+	}
+}
+}
+
+
+

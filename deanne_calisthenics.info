@@ -1,0 +1,30 @@
+name = Deanne Calisthenics
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/deanne-calisthenics.reset.css
+stylesheets[all][] = css/deanne-calisthenics.styles.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/deanne-calisthenics.behaviors.js
+
+; ========================================
+; Plugins
+; ========================================
+plugins[panels][layouts] = panels/layouts
+
+; ========================================
+; Regions
+; ========================================
+regions[header] = Header
+regions[navigation] = Navigation
+regions[content] = Content
+regions[footer] = Footer

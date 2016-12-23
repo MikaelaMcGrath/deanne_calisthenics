@@ -1,0 +1,71 @@
+.front {
+	h2, p {
+			text-align: center;
+		}
+	.home-content {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.home-content-section {
+		padding-top: $vert-spacing-unit;
+	}
+	.grey-box {
+		background-color: $dark-white;
+		border: 1px solid $light-grey;
+		padding: 0 $horz-spacing-unit $vert-spacing-unit $horz-spacing-unit;
+		margin-bottom: $vert-spacing-unit;
+		&.news {
+			margin-top: $vert-spacing-unit;
+		}
+		&.classes {
+			p {
+				text-align: center;
+			}
+		}
+		&.news, &.events {
+			.views-row {
+				display: flex;
+				p {
+					width: 70%;
+					&.date {
+						width: 35%;
+						padding-right: 10px;
+					}
+				}
+			}
+			.more-link {
+				font-size: $base-font-size * 1.4;
+			}
+		}
+		p {
+			text-align: left;
+		}
+	}
+}
+@include breakpoint(tablet) {
+	.info-boxes {
+		display: flex;
+		align-content: stretch;
+		justify-content: space-between;
+		//width: 100%;
+		margin-top: $vert-spacing-unit;
+		.left, .middle, .right {
+			flex: 1 0 auto;
+			width: 32%;
+			display: flex;
+			align-content: stretch;
+			justify-content: space-between;
+			.grey-box {
+				padding-top: $horz-spacing-unit;
+				width: 100%;
+				margin-right: $horz-spacing-unit;
+				&.news {
+					margin-top: 0;
+				}
+				&.classes {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}

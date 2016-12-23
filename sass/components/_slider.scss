@@ -1,0 +1,11 @@
+.slideshow {
+	position: relative;
+	img {
+		width: 100%;
+		height: auto;
+	}
+	.views-slideshow-controls-top {
+		display: none;
+		visibility: hidden;
+	}
+}

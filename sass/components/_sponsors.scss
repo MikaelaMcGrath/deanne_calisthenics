@@ -1,0 +1,32 @@
+.sponsors {
+	border-top: 1px solid $light-grey;
+	margin-top: $vert-spacing-unit;
+	.view-content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: $vert-spacing-unit;
+		a {
+			border-bottom: 0;
+		}
+		img {
+			height: auto;
+			width: 100%;
+			max-width: 150px;
+		}
+		.views-row {
+			text-align: center;
+			width: 30%;
+		}
+		.views-row-1 {
+			margin-right: $horz-spacing-unit;
+		}
+		.views-row-2 {
+			order: 3;
+			margin-left: $horz-spacing-unit;
+		}
+		.views-row-3 {
+			order: 2;
+		}
+	}
+}
