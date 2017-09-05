@@ -5,11 +5,16 @@
 	}
 	.site-logo {
 		img {
-			width: 200px;
+			width: 150px;
 		}
 	}
-	.site-slogan {
-		color: $mid-grey;
+	.site-heading {
+		h1 {
+			font-size: $base-font-size * 3;
+		}
+		.site-slogan {
+			color: $mid-grey;
+		}
 	}
 }
 @include breakpoint(tablet) {
@@ -29,7 +34,7 @@
 			margin-left: $horz-spacing-unit;
 			h1 {
 				padding: 0;
-				font-size: $base-font-size * 3.8;
+				font-size: $base-font-size * 3.5;
 			}
 			.site-slogan {
 				text-align: left;

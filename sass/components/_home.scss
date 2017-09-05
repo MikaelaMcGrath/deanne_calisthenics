@@ -8,6 +8,9 @@
 	}
 	.home-content-section {
 		padding-top: $vert-spacing-unit;
+		.pane-title {
+			text-transform: uppercase;
+		}
 	}
 	.grey-box {
 		background-color: $dark-white;

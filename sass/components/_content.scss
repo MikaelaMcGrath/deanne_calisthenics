@@ -3,9 +3,6 @@
 	.date, .date-display-range {
 		text-transform: uppercase;
 	}
-	.date-display-range {
-		font-size: $base-font-size * 1.4;
-	}
 	.messages {
 		display: none;
 	}
@@ -37,7 +34,15 @@
 			text-align: right;
 		}
 	}
-
+	a {
+		font-weight: 600;
+	}
+	.alert-box {
+		background-color: $dark-white;
+		border: 1px solid $light-grey;
+		padding: $horz-spacing-unit $vert-spacing-unit;
+		text-align: center;
+	}
 }
 @include breakpoint(tablet) {
 	.l-content {

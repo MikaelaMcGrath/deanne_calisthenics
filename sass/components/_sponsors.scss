@@ -30,3 +30,13 @@
 		}
 	}
 }
+.view-sponsors {
+	.view-content {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		.majorsponsor-Yes {
+			text-align: center;
+		}
+	}
+}
